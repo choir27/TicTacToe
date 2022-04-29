@@ -1,0 +1,86 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+
+.flex{
+  display: flex;
+}
+
+.box{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+body{
+background: no-repeat url('background.jpg') center/cover;
+flex-flow: column wrap;
+align-items: center;
+height: 900px;
+}
+
+body *{
+  margin: 0;
+}
+
+.grid{
+  flex-flow: row wrap;
+  width: 50%;
+  justify-content: center;
+}
+
+section{
+font-size: 10rem;
+}
+
+.box{
+  border: 3px solid black;
+  background: lightblue;
+  width: 200px;
+  height: 200px;
+}
+
+main h2, h3, main, h1{
+  margin: 1%;
+}
+
+main h2{
+  margin-left: 10%;
+}
+
+#xScore{
+  margin-right: 10%;
+}
+
+h1{font-size: 4rem;}
+h2{font-size: 3rem;}
+h3{font-size: 2rem;}
+p,button{font-size: 2rem;}
+
+.hidden{
+  display: none;
+}
+
+#clear{
+  margin-top: 2%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
