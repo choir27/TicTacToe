@@ -1,43 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Lens by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
-
-		<title>Title in the tab</title>
-
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<title>Lens by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class = 'flex'>
-		<h1>Tic Tac Toe</h1>
-		<p></p>
-		<main class = 'flex'>
-		<h3>Score:</h3>
-		<h2>X:<h2 id = 'xScore'>0</h2></h2>
-		<h2>O:<h2 id = 'oScore'>0</h2></h2>
-		</main>
-		<h2 id = 'results'>Results</h2>
+	<body>
 
-			<article class = 'flex grid'>
-		<section id = 'box1' class = 'flex box'></section>
-		<section id = 'box2' class = 'flex box'></section>
-		<section id = 'box3' class = 'flex box'></section>
-		<section id = 'box4' class = 'flex box'></section>
-		<section id = 'box5' class = 'flex box'></section>
-		<section id = 'box6' class = 'flex box'></section>
-		<section id = 'box7' class = 'flex box'></section>
-		<section id = 'box8' class = 'flex box'></section>
-		<section id = 'box9' class = 'flex box'></section>
+		<!-- Main -->
+			<div id="main">
 
+				<!-- Header -->
+					<header id="header">
+						<h1>Tic Tac Toe</h1>
+							<p></p>		
+							<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+					</header>
+
+				<!-- Thumbnail -->
+					<section id="thumbnails">
+						<article class ='flex active'>
+							<a class="thumbnail" href="img/background.jpg" data-position="left center"></a>
+							
+									<article id = 'hide' class = 'flex grid'>
+								<section id = 'box1' class = 'flex box'></section>
+								<section id = 'box2' class = 'flex box'></section>
+								<section id = 'box3' class = 'flex box'></section>
+								<section id = 'box4' class = 'flex box'></section>
+								<section id = 'box5' class = 'flex box'></section>
+								<section id = 'box6' class = 'flex box'></section>
+								<section id = 'box7' class = 'flex box'></section>
+								<section id = 'box8' class = 'flex box'></section>
+								<section id = 'box9' class = 'flex box'></section>
+								</article>
+							
+						<div id = 'score' class = 'flex'>
+							<div id = 'button'>
+							<button class = 'hidden' id = 'replay'>Replay</button>
+							<button id = 'clear'>Clear Score</button>
+							<h2 id = 'results'>Results</h2>
+						</div>
+							<main class = 'flex'>
+								<h3>Score:</h3>
+								<h2>X:<h2 id = 'xScore'>0</h2></h2>
+								<h2>O:<h2 id = 'oScore'>0</h2></h2>
+							</main>
+						</div>
 		</article>
+					</section>
 
-	
-		<button class = 'hidden' id = 'replay'>Replay</button>
-		<button id = 'clear'>Clear Score</button>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Choir</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
+						</ul>
+					</footer>
 
-		<script type="text/javascript" src="js/main.js"></script>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
