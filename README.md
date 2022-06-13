@@ -6,6 +6,8 @@
 </div>
 
 # To Do List
+- [ ] Use Express/Node/ejs to simulate TicTacToe
+- [ ] Store score data and placements of X's and O's in database
 - [ ] Add different levels of difficulty for bot AIs
 - [ ] Update HTML/CSS/JS
 - [ ] Add options to switch between solo and 2 player mode
