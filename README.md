@@ -1,10 +1,6 @@
 # TicTacToe
 ![Capture4](https://user-images.githubusercontent.com/66279068/166509304-9f79eae1-de72-4f1c-b1ca-240360a0d685.PNG)
 
-<div align= 'center'>
-<a href = 'https://gamesinc-tictactoe.netlify.app/'><img src = 'https://user-images.githubusercontent.com/66279068/171734019-e53f6670-cfe3-4c33-8365-974362aa2a69.png'></a>
-</div>
-
 # To Do List
 - [ ] Use Express/Node/ejs to simulate TicTacToe
 - [ ] Store score data and placements of X's and O's in database
@@ -19,3 +15,11 @@
 - [X] Added an option to clear the board
 - [X] Added a tally to keep score
 - [X] Implemented HTML/CSS for aesthetics
+
+<!--
+<div align= 'center'>
+<a href = 'https://gamesinc-tictactoe.netlify.app/'></a>
+</div>
+
+<img src = 'https://user-images.githubusercontent.com/66279068/171734019-e53f6670-cfe3-4c33-8365-974362aa2a69.png'>
+-->
